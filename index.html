@@ -14,7 +14,19 @@
   </div>
 
   <div class="noise"></div>
+
+  <div class="ambient-words" aria-hidden="true">
+    <span class="ambient-star ambient-star--one">*</span>
+    <span class="ambient-star ambient-star--two">*</span>
+    <span class="ambient-star ambient-star--three">*</span>
+
+    <span class="ambient-word ambient-word--one">с умом</span>
+    <span class="ambient-word ambient-word--two">с душой</span>
+    <span class="ambient-word ambient-word--three">с полной самоотдачей</span>
+  </div>
+
   <div class="cursor" id="cursor"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
 
   <aside class="sidebar">
     <a class="sidebar__logo magnetic" href="#top" aria-label="На главную">М</a>
@@ -62,7 +74,7 @@
 
         <p class="hero__text">
           Сайт-визитка, где собраны моя история, новости, фотографии и опыт работы.
-          Показываю Магнит через личный пример, честный контент и развитие личного бренда.
+          Показываю Магнит через личный пример, честный контент и развитие личного бренда — с умом, с душой и с полной самоотдачей.
         </p>
 
         <div class="hero__actions">
@@ -220,7 +232,7 @@
           <div class="telegram-card__icon">↗</div>
           <h3>Новости из Telegram</h3>
           <p>
-            Основной поток новостей можно вести в Telegram, а на сайте оставить лучшие публикации,
+            Основной поток новостей в Telegram, а на сайте лучшие публикации,
             важные события и личные заметки.
           </p>
           <a class="magnetic" href="https://t.me/artem_myv" target="_blank" rel="noreferrer">Перейти в Telegram</a>
@@ -252,11 +264,37 @@
           <h3>Мой фокус на этот год</h3>
           <p>Нажми, чтобы открыть публикацию полностью.</p>
         </button>
-      </div> </div> 
-      </div> </div> 
+
+                <button class="news-card reveal" type="button"
+          data-title="Рассказ о своём рабочем месте"
+          data-date="15 апреля"
+          data-text="Совсем недавно я обновил своё рабочее место дома, хочу придерживаться стиля лофт.">
+          <time>15 апреля 2026</time>
+          <h3>Рассказ о своём рабочем месте</h3>
+          <p>Нажми, чтобы открыть публикацию полностью.</p>
+        </button>
+
+                <button class="news-card reveal" type="button"
+          data-title="1 июня, день защиты детей и отличный повод сходить в ресторан"
+          data-date="20 мая 2026 года"
+          data-text="Повод быть не просто работником Магнита, но и хорошим человеком.">
+          <time>1 июня 2026</time>
+          <h3>Немного из личного, личной жизни</h3>
+          <p>Нажми, чтобы открыть публикацию полностью.</p>
+        </button>
+
+                <button class="news-card reveal" type="button"
+          data-title="Показал свой кабинет"
+          data-date="4 июня 2026 года"
+          data-text="Я показал свой кабинет, давайте в мой телеграм, там документы, стандарты там все тайны магнита!">
+          <time>20 мая 2026</time>
+          <h3>Рассказал о том, как я работаю</h3>
+          <p>Нажми, чтобы открыть публикацию полностью.</p>
+        </button>
+      </div>
     </section>
-</div> ⠀</div> 
-</div> ⠀</div> 
+⠀
+⠀
     <section id="contact" class="contact reveal">
       <div class="contact__shine"></div>
       <span>Контакты</span>
@@ -268,7 +306,9 @@
       </a>
     </section>
 
-    <section id="resume" class="section">
+    <section id="resume" class="section resume-section">
+      <span class="resume-orbit resume-orbit--one" aria-hidden="true"></span>
+      <span class="resume-orbit resume-orbit--two" aria-hidden="true"></span>
       <div class="section-title reveal">
         <span>Моё резюме</span>
         <h2>Опыт работы, навыки и профессиональный профиль</h2>
@@ -276,6 +316,8 @@
 
       <div class="resume-grid">
         <article class="resume-summary reveal">
+          <span class="resume-summary__shine" aria-hidden="true"></span>
+          <span class="resume-summary__grid" aria-hidden="true"></span>
           <div class="resume-summary__header">
             <div>
               <div class="resume-badge">АО ТАНДЕР</div>
@@ -290,6 +332,12 @@
             аналитического подхода и умения быстро ориентироваться в документации и процессах.
           </p>
 
+          <div class="resume-metrics">
+            <div><b>ГОСТ / ТУ</b><span>работа со стандартами</span></div>
+            <div><b>ФРОВ</b><span>контроль качества</span></div>
+            <div><b>Digital</b><span>таблицы, кодинг, дизайн</span></div>
+          </div>
+
           <div class="resume-chips">
             <span>MS Excel</span>
             <span>Аудит</span>
@@ -297,8 +345,57 @@
             <span>Качество ФРОВ</span>
             <span>TRASSIR</span>
             <span>Многозадачность</span>
+            <span>Web-дизайн</span>
+            <span>Кодинг</span>
+            <span>Вайбкодинг</span>
+          </div>
+
+          <div class="resume-signature">
+            <span>Профессиональный подход</span>
+            <b>контроль • анализ • digital</b>
           </div>
         </article>
+
+        <article class="resume-education reveal">
+          <span class="education-bg-word" aria-hidden="true">LAW</span>
+
+          <div class="education-head">
+            <div class="education-visual" aria-hidden="true">
+              <div class="education-icon">§</div>
+              <span class="education-ring education-ring--one"></span>
+              <span class="education-ring education-ring--two"></span>
+            </div>
+
+            <div class="education-title">
+              <div class="resume-badge">Образование</div>
+              <h3>СПО — Юриспруденция</h3>
+            </div>
+          </div>
+
+          <p>
+            Среднее профессиональное образование по направлению «Юриспруденция».
+            Эта база помогает мне внимательнее работать с документацией, стандартами,
+            регламентами и нормативными требованиями.
+          </p>
+
+          <div class="education-points">
+            <span>Правовая база</span>
+            <span>Документы</span>
+            <span>Регламенты</span>
+          </div>
+
+          <div class="education-mini">
+            <div>
+              <b>СПО</b>
+              <span>уровень образования</span>
+            </div>
+            <div>
+              <b>Юр.</b>
+              <span>направление</span>
+            </div>
+          </div>
+        </article>
+
 
         <article class="resume-timeline reveal">
           <h3>Опыт работы</h3>
@@ -339,15 +436,15 @@
             <div class="resume-gauge" data-progress="90">
               <div class="resume-gauge__inner">
                 <b class="resume-gauge__value">0%</b>
-                <span>Общее значение</span>
+                <span>Мои навыки</span>
               </div>
             </div>
 
             <div class="skills-note">
               <h3>Уверенный рабочий инструментарий</h3>
               <p>
-                Уверенно использую MS Office, в том числе Excel: таблицы, систематизация данных,
-                контроль информации и работа с отчётностью.
+                Уверенно работаю с таблицами, документацией и аналитикой, а также развиваю digital-навыки:
+                web-дизайн, кодинг и вайбкодинг для создания современных проектов.
               </p>
             </div>
           </div>
@@ -355,6 +452,21 @@
           <div class="skill-bars">
             <div class="skill-bar" data-progress="95">
               <div class="skill-bar__head"><span>MS Excel / таблицы</span><b>95%</b></div>
+              <div class="skill-bar__track"><span></span></div>
+            </div>
+
+            <div class="skill-bar" data-progress="88">
+              <div class="skill-bar__head"><span>Web-дизайн</span><b>88%</b></div>
+              <div class="skill-bar__track"><span></span></div>
+            </div>
+
+            <div class="skill-bar" data-progress="84">
+              <div class="skill-bar__head"><span>Кодинг</span><b>84%</b></div>
+              <div class="skill-bar__track"><span></span></div>
+            </div>
+
+            <div class="skill-bar" data-progress="90">
+              <div class="skill-bar__head"><span>Вайбкодинг</span><b>90%</b></div>
               <div class="skill-bar__track"><span></span></div>
             </div>
 
